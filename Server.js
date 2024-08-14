@@ -6,7 +6,7 @@ const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 
 // Connect to MongoDB
-mongoose.connect('mongodb://localhost/cozy-cup-cafe', { useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect('mongodb://localhost/Brewberry-cafe', { useNewUrlParser: true, useUnifiedTopology: true });
 
 // Define schemas
 const menuSchema = new mongoose.Schema({
